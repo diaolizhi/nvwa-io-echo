@@ -7,6 +7,11 @@ import (
 )
 
 func main() {
+	// 初始化配置
+	initConfig()
+	// 初始化数据库
+	initDB()
+
 	// Echo instance
 	e := echo.New()
 
